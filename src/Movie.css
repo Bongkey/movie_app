@@ -1,0 +1,47 @@
+:root {
+    --img-width-size: 150px;
+    --img-height-size: 255px;
+    --medium-ft-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.movie__data {
+    padding: 30px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    width: var(--img-width-size);
+    height: var(--img-height-size)
+}
+
+.movie__data {
+    float: auto;
+}
+
+.movie__data .movie__title {
+    font-size: var(--medium-ft-size);
+    margin-bottom: 5px;
+}
+
+.movie__data .movie__year {
+    font-size: var(--medium-ft-size);
+    margin-bottom: 5px;
+}
+
+.movie__data .genre {
+    list-style: none;
+    float: left;
+    font-weight: 500;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.movie__data .movie__summary {
+    font-weight: 300;
+}
